@@ -1,6 +1,6 @@
 # Saucedemo automated tests
 
-![SaucedemoLogoo](https://gitlab.com/maxchislov/saucedemo-automated-tests/-/raw/main/Saucedemo.png)
+![SaucedemoLogoo](https://github.com/maxchislov/saucedemo-automated-tests/blob/master/Saucedemo.png)
 
 This is a demo project to show the advantages of using Cypress automated tests for https://www.saucedemo.com eCommerce demo website
 
@@ -52,7 +52,7 @@ After a test run, you can find the recorded videos in `cypress/videos`\
 To generate a test report, please run: `npm run cy:report`\
 This should generate and automatically open the generated report in the default browser.
 
-![Report Example](https://gitlab.com/maxchislov/saucedemo-automated-tests/-/raw/main/report_example.png)
+![Report Example](https://github.com/maxchislov/saucedemo-automated-tests/blob/master/report_example.png)
 
 
 

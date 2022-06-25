@@ -1,0 +1,44 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "type": "desktop",
+        "contentWidth": "1920px",
+        "contentHeight": "6997px"
+    },
+    {
+        "width": 1366,
+        "height": 768,
+        "type:": "desktop",
+        "contentWidth": "1366px",
+        "contentHeight": "5593px"
+    },
+    {
+        "width": 1536,
+        "height": 864,
+        "type": "desktop",
+        "contentWidth": "1536px",
+        "contentHeight": "5593px"
+    },
+    {
+        "width": 414,
+        "height": 896,
+        "type": "mobile",
+        "contentWidth": "414px",
+        "contentHeight": "7321.07px"
+    },
+    {
+        "width": 375,
+        "height": 667,
+        "type": "mobile",
+        "contentWidth": "375px",
+        "contentHeight": "6636.24px"
+    },
+    {
+        "width": 360,
+        "height": 640,
+        "type": "mobile",
+        "contentWidth": "360px",
+        "contentHeight": "6372.02px"
+    }
+]

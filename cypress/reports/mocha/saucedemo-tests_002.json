@@ -1,0 +1,205 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-26T19:14:50.336Z",
+    "end": "2022-06-26T19:15:09.236Z",
+    "duration": 18900,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a5abec1d-ec4d-434e-86ff-3456212e6412",
+      "title": "",
+      "fullFile": "cypress/e2e/screen_sizes_registration.cy.ts",
+      "file": "cypress/e2e/screen_sizes_registration.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "69c3b0bc-28a7-4688-b9cc-7466d2d070ca",
+          "title": "Checks login and main page with multiple screen resolutions",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "It logs in and navigats to inventory page with different screen sizes: '1920x1080 type desktop'",
+              "fullTitle": "Checks login and main page with multiple screen resolutions It logs in and navigats to inventory page with different screen sizes: '1920x1080 type desktop'",
+              "timedOut": null,
+              "duration": 3482,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(screenResolution.width, screenResolution.height, screenResolution.type);\ncy.goToLoginPage();\ncy.checkLoginPage();\ncy.submitLoginForm(support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testUserName\"], support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testPassword\"]);\ncy.resetAppState();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBackpackButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBackpackButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBikeLightButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBikeLightButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBoltTshirtButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBoltTshirtButton).should('be.visible');",
+              "err": {},
+              "uuid": "3b57633c-7965-4273-aa46-126ce0039a4d",
+              "parentUUID": "69c3b0bc-28a7-4688-b9cc-7466d2d070ca",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "It logs in and navigats to inventory page with different screen sizes: '1366x768 type desktop'",
+              "fullTitle": "Checks login and main page with multiple screen resolutions It logs in and navigats to inventory page with different screen sizes: '1366x768 type desktop'",
+              "timedOut": null,
+              "duration": 3262,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(screenResolution.width, screenResolution.height, screenResolution.type);\ncy.goToLoginPage();\ncy.checkLoginPage();\ncy.submitLoginForm(support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testUserName\"], support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testPassword\"]);\ncy.resetAppState();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBackpackButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBackpackButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBikeLightButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBikeLightButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBoltTshirtButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBoltTshirtButton).should('be.visible');",
+              "err": {},
+              "uuid": "77a17d34-3490-4779-99e7-31a03645a683",
+              "parentUUID": "69c3b0bc-28a7-4688-b9cc-7466d2d070ca",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "It logs in and navigats to inventory page with different screen sizes: '1536x864 type desktop'",
+              "fullTitle": "Checks login and main page with multiple screen resolutions It logs in and navigats to inventory page with different screen sizes: '1536x864 type desktop'",
+              "timedOut": null,
+              "duration": 2890,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(screenResolution.width, screenResolution.height, screenResolution.type);\ncy.goToLoginPage();\ncy.checkLoginPage();\ncy.submitLoginForm(support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testUserName\"], support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testPassword\"]);\ncy.resetAppState();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBackpackButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBackpackButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBikeLightButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBikeLightButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBoltTshirtButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBoltTshirtButton).should('be.visible');",
+              "err": {},
+              "uuid": "fe900d7a-9ca7-4f61-b39e-33635dea053a",
+              "parentUUID": "69c3b0bc-28a7-4688-b9cc-7466d2d070ca",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "It logs in and navigats to inventory page with different screen sizes: '414x896 type mobile'",
+              "fullTitle": "Checks login and main page with multiple screen resolutions It logs in and navigats to inventory page with different screen sizes: '414x896 type mobile'",
+              "timedOut": null,
+              "duration": 2851,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(screenResolution.width, screenResolution.height, screenResolution.type);\ncy.goToLoginPage();\ncy.checkLoginPage();\ncy.submitLoginForm(support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testUserName\"], support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testPassword\"]);\ncy.resetAppState();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBackpackButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBackpackButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBikeLightButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBikeLightButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBoltTshirtButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBoltTshirtButton).should('be.visible');",
+              "err": {},
+              "uuid": "f391711d-51ff-4558-9f82-fcabf07c723f",
+              "parentUUID": "69c3b0bc-28a7-4688-b9cc-7466d2d070ca",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "It logs in and navigats to inventory page with different screen sizes: '375x667 type mobile'",
+              "fullTitle": "Checks login and main page with multiple screen resolutions It logs in and navigats to inventory page with different screen sizes: '375x667 type mobile'",
+              "timedOut": null,
+              "duration": 2763,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(screenResolution.width, screenResolution.height, screenResolution.type);\ncy.goToLoginPage();\ncy.checkLoginPage();\ncy.submitLoginForm(support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testUserName\"], support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testPassword\"]);\ncy.resetAppState();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBackpackButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBackpackButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBikeLightButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBikeLightButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBoltTshirtButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBoltTshirtButton).should('be.visible');",
+              "err": {},
+              "uuid": "2175dfd6-a3a7-4210-9470-2f6dca2d55f9",
+              "parentUUID": "69c3b0bc-28a7-4688-b9cc-7466d2d070ca",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "It logs in and navigats to inventory page with different screen sizes: '360x640 type mobile'",
+              "fullTitle": "Checks login and main page with multiple screen resolutions It logs in and navigats to inventory page with different screen sizes: '360x640 type mobile'",
+              "timedOut": null,
+              "duration": 3290,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(screenResolution.width, screenResolution.height, screenResolution.type);\ncy.goToLoginPage();\ncy.checkLoginPage();\ncy.submitLoginForm(support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testUserName\"], support_test_data__WEBPACK_IMPORTED_MODULE_2__[\"testPassword\"]);\ncy.resetAppState();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBackpackButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBackpackButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBikeLightButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBikeLightButton).should('be.visible');\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].addBoltTshirtButton).should('be.visible').click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_0__[\"inventoryPage\"].removeBoltTshirtButton).should('be.visible');",
+              "err": {},
+              "uuid": "7248ecf3-93d7-41a3-a1a1-e562d320ccbb",
+              "parentUUID": "69c3b0bc-28a7-4688-b9cc-7466d2d070ca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3b57633c-7965-4273-aa46-126ce0039a4d",
+            "77a17d34-3490-4779-99e7-31a03645a683",
+            "fe900d7a-9ca7-4f61-b39e-33635dea053a",
+            "f391711d-51ff-4558-9f82-fcabf07c723f",
+            "2175dfd6-a3a7-4210-9470-2f6dca2d55f9",
+            "7248ecf3-93d7-41a3-a1a1-e562d320ccbb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 18538,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "saucedemo-tests",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "html": false,
+        "overwrite": false,
+        "json": true,
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "saucedemo-tests",
+        "excludeSpecPattern": [
+          "*/ignore/*"
+        ]
+      },
+      "version": "6.2.0"
+    }
+  }
+}

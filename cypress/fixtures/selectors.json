@@ -26,7 +26,7 @@
     
     },
     "checkoutPage": {
-        "title": "span[class='title']",
+        "title": "div[class='header_secondary_container']",
         "firstNameField": "[data-test='firstName']",
         "lastNameField": "[data-test='lastName']",
         "postalCodeField": "[data-test='postalCode']",
@@ -35,7 +35,7 @@
     },
 
     "checkOerviewPage": {
-        "title": "span[class='title']",
+        "title": "div[class='header_secondary_container']",
         "totalLabel": "div[class='summary_total_label']",
         "postalCodeField": "[data-test='postalCode']",
         "cancelButton": "[data-test='cancel']",

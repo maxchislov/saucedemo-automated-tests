@@ -2,7 +2,7 @@
 import { testPassword, testUserName, lockedUserName } from "support/test-data";
 import * as selectors from "fixtures/selectors.json"
 
-describe('Attempts to submit the registration form incorrectly', () => {
+describe('Attempts to login incorrectly', () => {
     beforeEach(() => {
         cy.goToLoginPage();
     })

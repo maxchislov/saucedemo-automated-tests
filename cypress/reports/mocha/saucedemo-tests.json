@@ -1,0 +1,148 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-26T19:14:06.103Z",
+    "end": "2022-06-26T19:14:13.281Z",
+    "duration": 7178,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3ca34d5f-bb35-485d-81d2-ecb24981627a",
+      "title": "",
+      "fullFile": "cypress/e2e/login_page_validation.cy.ts",
+      "file": "cypress/e2e/login_page_validation.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "408057da-124c-40de-b688-7b933b5f3ccc",
+          "title": "Attempts to login incorrectly",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Doesnt provide the user name",
+              "fullTitle": "Attempts to login incorrectly Doesnt provide the user name",
+              "timedOut": null,
+              "duration": 3063,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.checkLoginPage();\ncy.submitLoginForm(' ', support_test_data__WEBPACK_IMPORTED_MODULE_0__[\"testPassword\"]);\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_1__[\"loginPage\"].errorButton).should('be.visible').contains('Epic sadface: Username and password do not match any user in this service');",
+              "err": {},
+              "uuid": "43f3dd2b-1223-483a-b341-73adfba5d9ef",
+              "parentUUID": "408057da-124c-40de-b688-7b933b5f3ccc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Doesnt provide the password",
+              "fullTitle": "Attempts to login incorrectly Doesnt provide the password",
+              "timedOut": null,
+              "duration": 1253,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.checkLoginPage();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_1__[\"loginPage\"].passwordField).clear();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_1__[\"loginPage\"].usernameField).clear().type(support_test_data__WEBPACK_IMPORTED_MODULE_0__[\"testUserName\"]);\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_1__[\"loginPage\"].loginButton).click();\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_1__[\"loginPage\"].errorButton).should('be.visible').contains('Epic sadface: Password is required');",
+              "err": {},
+              "uuid": "779e7369-474c-469d-afdf-03777af3abb8",
+              "parentUUID": "408057da-124c-40de-b688-7b933b5f3ccc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login with locked out name",
+              "fullTitle": "Attempts to login incorrectly Login with locked out name",
+              "timedOut": null,
+              "duration": 2353,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.checkLoginPage();\ncy.submitLoginForm(support_test_data__WEBPACK_IMPORTED_MODULE_0__[\"lockedUserName\"], support_test_data__WEBPACK_IMPORTED_MODULE_0__[\"testPassword\"]);\ncy.get(fixtures_selectors_json__WEBPACK_IMPORTED_MODULE_1__[\"loginPage\"].errorButton).should('be.visible').contains('Epic sadface: Sorry, this user has been locked out.');",
+              "err": {},
+              "uuid": "53638f88-c702-45af-a867-8525f66f7de0",
+              "parentUUID": "408057da-124c-40de-b688-7b933b5f3ccc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "43f3dd2b-1223-483a-b341-73adfba5d9ef",
+            "779e7369-474c-469d-afdf-03777af3abb8",
+            "53638f88-c702-45af-a867-8525f66f7de0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6669,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "saucedemo-tests",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "html": false,
+        "overwrite": false,
+        "json": true,
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "saucedemo-tests",
+        "excludeSpecPattern": [
+          "*/ignore/*"
+        ]
+      },
+      "version": "6.2.0"
+    }
+  }
+}
